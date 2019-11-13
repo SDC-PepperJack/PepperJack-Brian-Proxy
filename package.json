@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/app.js"
+    "start": "nodemon server/app.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   "homepage": "https://github.com/FEC-GOKU/BTetsy-Dunn-Proxy#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "newrelic": "^6.1.0",
+    "nodemon": "^1.19.4",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
